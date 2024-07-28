@@ -1,0 +1,91 @@
+
+/***********************************************************Body Global Style**************************************************/
+body {
+    background-color:#454545;
+    color: #d8c3aa;    
+}
+
+/*********************************************************Horizental Line(Dots) Style*****************************************/
+
+hr{
+    position: relative;
+    background-color:#454545;
+    border-style:dotted none none ;
+    border-width:19px;
+    width: 100px;
+    align-items: center;
+    border-color: rgb(255, 201, 101);
+    transition: 0.3s ease;
+    transform: scale(1);
+}
+hr:hover
+{
+    transform: scale(1.2);
+}
+/********************************************************Profile Pic Style*****************************************************/
+.Profile-pic
+    {
+    position: relative;
+    
+    border-radius: 50%;
+    border: 08px solid black;
+    border-color:#ff73013a;
+    }
+.Profile-pic img
+    {
+    transform:scale(1);
+    transition: 0.3s ease;
+    }
+.Profile-pic:hover img
+    {
+    transform: scale(1.1);
+    transform-style:flat;
+    }
+/********************************************************Headings Style****************************************************/
+h3
+{
+    color:#c2651a
+}
+
+h1,h2{
+    color: #ff7300  ;
+}
+h2:hover{
+    color: #FFA559;
+}
+h1:hover{
+    color: #FFA559;
+}
+h2::after{
+    color: #537FE7;
+}
+
+/********************************************************Link Style************************************************************/
+
+a{
+    color: rgb(255, 102, 0);
+    text-decoration:wavy;
+}
+
+a:hover{
+    color:rgb(156, 60, 5);
+    text-decoration:underline;
+}
+
+/********************************************************Listing Style*********************************************************/
+
+.Listing
+{
+    position: relative;
+    overflow: hidden;
+}
+.Listing:hover
+{
+    color: #caa270;
+}
+
+/********************************************************My Name Style*********************************************************/
+.Name:hover
+{
+    color: #caa270;
+}
